@@ -16,9 +16,9 @@ jobs:
       - name: Setup Git
         run: |
           git config user.name "DevSync Bot"
-          git config user.email "23f2004250@ds.study.iitm.ac.in"
+          git config user.email "shamanth10102005@gmail.com"
 
-      - name: Update timestamp file - 23f2004250@ds.study.iitm.ac.in
+      - name: Update timestamp file - shamanth10102005@gmail.com
         run: |
           echo "Last updated: $(date -u)" >> daily-log.txt
 
